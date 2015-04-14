@@ -1,0 +1,17 @@
+{
+  "name": "private-module-test",
+  "version": "1.0.0",
+  "description": "example of using private modules on Heroku",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:private-module-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bcoe/awesomeify": "^16.0.18",
+    "restify": "^3.0.2"
+  }
+}
