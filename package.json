@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "example of using private modules on Heroku",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha --check-leaks --ui exports"
+  },
   "repository": {
     "type": "git",
     "url": "git@heroku.com:private-module-test.git"
@@ -13,5 +15,9 @@
   "dependencies": {
     "@bcoe/awesomeify": "^16.0.18",
     "restify": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
   }
 }
