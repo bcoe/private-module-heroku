@@ -1,5 +1,5 @@
 {
-  "name": "private-module-test",
+  "name": "private-module-heroku",
   "version": "1.0.0",
   "description": "example of using private modules on Heroku",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git@heroku.com:private-module-test.git"
   },
-  "author": "",
+  "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
   "dependencies": {
     "@bcoe/awesomeify": "^16.0.18",
